@@ -1,0 +1,6 @@
+package com.experion.entity;
+
+public class LoanAccount {
+
+	private String loanAccountNumber;
+}

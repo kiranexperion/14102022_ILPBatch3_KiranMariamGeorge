@@ -1,0 +1,8 @@
+package com.experion.entity;
+
+public class Account extends Product {
+
+	private String accountType;
+
+
+}

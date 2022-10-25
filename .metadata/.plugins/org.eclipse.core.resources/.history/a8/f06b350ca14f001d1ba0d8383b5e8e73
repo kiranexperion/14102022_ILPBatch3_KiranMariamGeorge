@@ -1,0 +1,11 @@
+package com.experion.service;
+
+import com.experion.entity.Account;
+
+public class AccountService {
+
+	public void depositCash(Account account,double amount)
+	{
+		
+	}
+}

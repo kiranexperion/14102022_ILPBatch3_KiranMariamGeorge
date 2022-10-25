@@ -1,0 +1,29 @@
+package com.experion.utility;
+
+import java.util.Scanner;
+
+import com.experion.entity.Product;
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		Account account = new Account("Womens Savings Account","ACC834769238",10000);
+//		AccountService accountService = new AccountService();
+//		accountService.depositCash(account,20000);
+//		accountService.depositCash(account, 0, "sjdbfoksaj");
+//		accountService.depositCash(account, "skjdlskdj", 893274);
+		
+		Product product=null;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("1. Account  2. Card  3. Loan");
+		int choice = scanner.nextInt();
+		if(choice ==1)
+		{
+			procu
+		}
+		
+	}
+}
+

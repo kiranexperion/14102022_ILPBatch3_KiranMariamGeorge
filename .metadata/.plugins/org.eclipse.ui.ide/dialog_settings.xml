@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="D:\ILPExperion\SharedDocumentsBySuneesh\17102022\POJO.zip"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="D:\ILPExperion\SharedDocumentsByFadia\21102022\BankAssignment.zip"/>
+			<item value="D:\ILPExperion\SharedDocumentsBySuneesh\20102022\UseCaseDiscussion.zip"/>
+			<item value="D:\ILPExperion\SharedDocumentsBySuneesh\18102022\CCJP12_Day12_DateTime.zip"/>
+			<item value="D:\ILPExperion\SharedDocumentsByAjay\18102022\supermarket.zip"/>
+			<item value="D:\ILPExperion\SharedDocumentsByAjay\17102022\supermarket.zip"/>
+			<item value="D:\ILPExperion\SharedDocumentsBySuneesh\17102022\POJO.zip"/>
+			<item value="C:\Users\kiran.george\Downloads\DemonstrationProgram14102022.zip"/>
+		</list>
+	</section>
+</section>

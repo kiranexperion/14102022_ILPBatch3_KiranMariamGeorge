@@ -1,0 +1,9 @@
+package com.experion.entity;
+
+public abstract class Account {
+
+	private String accountType;
+	private String accountNumber;
+	
+	
+}

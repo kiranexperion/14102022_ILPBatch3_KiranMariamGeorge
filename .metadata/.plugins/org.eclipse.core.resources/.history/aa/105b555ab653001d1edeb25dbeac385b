@@ -1,0 +1,29 @@
+package com.experion.assignment;
+
+import java.util.Scanner;
+
+public class Q16_ReplaceCharacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String sentence;
+		char letter;
+		int count=0;
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter the sentence:");
+		sentence = scanner.nextLine();
+		System.out.println("Enter the character:");
+		letter = scanner.next().charAt(0);	
+		
+		for(int i=0;i< sentence.length()-1;i++)
+		{
+			if(sentence.charAt(i) == letter)
+				count++;
+		}
+		System.out.println("Number of word in the sentence is "+ (count+1));
+		
+	}
+
+}

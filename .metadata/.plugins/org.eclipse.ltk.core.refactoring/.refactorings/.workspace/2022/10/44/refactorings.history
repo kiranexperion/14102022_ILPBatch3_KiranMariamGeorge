@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;21102022_UseCase_Banking&apos; to &apos;21102022_UseCase_Banking_v1.0&apos;" description="Rename resource &apos;21102022_UseCase_Banking&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/21102022_UseCase_Banking" name="21102022_UseCase_Banking_v1.0" stamp="1666616742016" updateReferences="true"/>
+</session>

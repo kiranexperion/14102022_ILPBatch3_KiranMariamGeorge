@@ -1,0 +1,32 @@
+package com.experion.assignment;
+
+import java.util.Scanner;
+
+public class Q20_ProductDetails {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String productName;
+		String productCode;
+		String validityDate;
+		String expiryDate;
+		String purchaseDate;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter the product details:-");
+		System.out.println("Product code:");
+		productCode = scanner.nextLine();
+		System.out.println("Product name:");
+		productName = scanner.nextLine();
+		System.out.println("Validity date:");
+		validityDate = scanner.nextLine();
+		System.out.println("Expiry date:");
+		expiryDate = scanner.nextLine();
+		System.out.println("Purchase date:");
+		purchaseDate = scanner.nextLine();
+		
+	}
+
+}

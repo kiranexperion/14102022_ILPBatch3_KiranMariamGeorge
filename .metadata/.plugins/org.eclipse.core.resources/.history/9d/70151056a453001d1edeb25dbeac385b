@@ -1,0 +1,26 @@
+package com.experion.assignment;
+
+import java.util.Scanner;
+
+public class Q6_SumOfSeries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scanner = new Scanner(System.in);
+		int limit;
+		double factorial,sum=0;
+		
+		System.out.println("Enter the limit:");
+		limit = scanner.nextInt();
+		
+		for(int i=1;i<=limit;i++)
+		{
+			factorial = facto(i);
+			sum = sum + (i/factorial);
+		}
+		System.out.println("Sum of the series = "+sum);
+		
+	}
+
+}

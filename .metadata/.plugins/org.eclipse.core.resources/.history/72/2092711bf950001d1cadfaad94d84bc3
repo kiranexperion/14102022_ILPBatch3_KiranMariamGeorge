@@ -1,0 +1,8 @@
+package com.bank.entity;
+
+public class Product {
+
+	private String productCode;
+	private String productName;
+	private ArrayList<Service> serviceList;
+}

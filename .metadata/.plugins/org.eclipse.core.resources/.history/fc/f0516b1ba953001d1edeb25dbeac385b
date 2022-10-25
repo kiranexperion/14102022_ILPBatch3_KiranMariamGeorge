@@ -1,0 +1,53 @@
+package com.experion.assignment;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class Q7_SumOfSeries2 {
+
+	private static final DecimalFormat df = new DecimalFormat("0.00");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//************ Arithmetic Exception for larger numbers(from 9 onwards) **************//
+		//************* Decimal point problem ************//
+
+		
+		Scanner scanner = new Scanner(System.in);
+	
+		int limit;
+		double sum=0;
+		double factorial;
+		
+		System.out.println("Enter the limit:");
+		limit = scanner.nextInt();
+		
+		for(int i=1;i<=limit;i++)
+		{
+			factorial = facto(i*i);
+			sum = sum + (i/factorial);
+		}
+		System.out.println("Sum of the series = "+sum);
+		
+	}
+	
+	public static double facto(double n) {
+		
+		double factorial=1;
+		for(int i=1;i<=n;i++)
+			factorial = factorial*i;
+		System.out.println(factorial);
+		//OUTPUT of factorial
+		/*1
+		24
+		362880
+		20922789888000
+		7034535277573963776
+		9003737871877668864
+		8789267254022766592
+		-9223372036854775808
+		0*/
+		return factorial;
+	}
+
+}
