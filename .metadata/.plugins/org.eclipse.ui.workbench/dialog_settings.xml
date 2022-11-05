@@ -16,11 +16,14 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\kiran.george\Downloads\HAS-A.zip"/>
 			<item value="C:\Users\kiran.george\Downloads\Assignment.zip"/>
 			<item value="C:\Users\kiran.george\Downloads\Banking.zip"/>
 			<item value="C:\Users\kiran.george\Downloads\StaticandArrayList.zip"/>
 			<item value="C:\Users\kiran.george\Downloads\SupermarketFinal.zip"/>
 			<item value="C:\Users\kiran.george\Downloads\Service.zip"/>
 		</list>
+	</section>
+	<section name="FileSystemImportWizard">
 	</section>
 </section>

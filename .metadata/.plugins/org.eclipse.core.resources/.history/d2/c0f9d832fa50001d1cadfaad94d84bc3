@@ -1,6 +1,0 @@
-package com.bank.entity;
-
-public class Account {
-
-	private double accountBalance;
-}

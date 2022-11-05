@@ -1,7 +1,0 @@
-package com.experion.entity;
-
-public class SavingsMaxAccount extends Account{
-
-	private String accountNumber;
-	
-}

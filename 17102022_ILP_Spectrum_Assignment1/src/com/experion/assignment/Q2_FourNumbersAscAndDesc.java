@@ -6,44 +6,118 @@ public class Q2_FourNumbersAscAndDesc {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		//********** NOT COMPLETE ***********//
 
 		Scanner scanner = new Scanner(System.in);
-		int firstNumber,secondNumber,thirdNumber,fourthNumber;
+		int firstNumber;
+		int secondNumber;
+		int thirdNumber;
+		int fourthNumber;
+		int temp;
+		System.out.println("enter the numbers: ");
+		firstNumber=scanner.nextInt();
+		secondNumber=scanner.nextInt();
+		thirdNumber=scanner.nextInt();
+		fourthNumber=scanner.nextInt();
 		
-		System.out.println("Enter the first number: ");
-		firstNumber = scanner.nextInt();
-		System.out.println("Enter the second number: ");
-		secondNumber = scanner.nextInt();
-		System.out.println("Enter the third number: ");
-		thirdNumber = scanner.nextInt();
-		System.out.println("Enter the fourth number: ");
-		fourthNumber = scanner.nextInt();
+		if((firstNumber<secondNumber)&&(firstNumber<thirdNumber)&&(firstNumber<fourthNumber)) {
+			temp=fourthNumber;
+			fourthNumber=firstNumber;
+			firstNumber=temp;
+			if((firstNumber<secondNumber)&&(firstNumber<thirdNumber)) {
+				temp=thirdNumber;
+				thirdNumber=firstNumber;
+				firstNumber=temp;
+				if(firstNumber<secondNumber) {
+					temp=secondNumber;
+					secondNumber=firstNumber;
+					firstNumber=temp;
+					
+				}
+				
+			}
+		}
+		if((secondNumber<thirdNumber)&&(secondNumber<firstNumber)&&(secondNumber<fourthNumber)) {
+			temp=fourthNumber;
+			fourthNumber=secondNumber;
+			secondNumber=temp;
+			if((secondNumber<firstNumber)&&(secondNumber<thirdNumber)) {
+				temp=thirdNumber;
+				thirdNumber=secondNumber;
+				secondNumber=temp;
+				if(secondNumber>firstNumber) {
+					temp=firstNumber;
+					firstNumber=secondNumber;
+					secondNumber=temp;
+				}
+				
+			}
+		}
+		if((thirdNumber<secondNumber)&&(thirdNumber<firstNumber)&&(thirdNumber<fourthNumber)) {
+			temp=fourthNumber;
+			fourthNumber=thirdNumber;
+			thirdNumber=temp;
+			if((thirdNumber>firstNumber)&&(thirdNumber>secondNumber)) {
+				temp=firstNumber;
+				firstNumber=thirdNumber;
+				thirdNumber=temp;
+				if(thirdNumber>secondNumber) {
+					temp=secondNumber;
+					secondNumber=thirdNumber;
+					thirdNumber=temp;
+				}
+				
+			}
+		}
+		if((fourthNumber>firstNumber)&&(fourthNumber>secondNumber)&&(fourthNumber>thirdNumber)) {
+			temp=firstNumber;
+			firstNumber=fourthNumber;
+			fourthNumber=temp;
+			if((fourthNumber>thirdNumber)&&(fourthNumber>secondNumber)) {
+				temp=secondNumber;
+				secondNumber=fourthNumber;
+				fourthNumber=temp;
+				if(fourthNumber>thirdNumber) {
+					temp=thirdNumber;
+					thirdNumber=fourthNumber;
+					fourthNumber=temp;
+				}
+			}
+		}
+		if((thirdNumber>firstNumber)&&(thirdNumber>secondNumber)) {
+			temp=firstNumber;
+			firstNumber=thirdNumber;
+			thirdNumber=temp;
+			if(thirdNumber>secondNumber) {
+				temp=secondNumber;
+				secondNumber=thirdNumber;
+				thirdNumber=temp;
+				
+			}
+		}
+		if(secondNumber>firstNumber) {
+			temp=firstNumber;
+			firstNumber=secondNumber;
+			secondNumber=temp;
+			
+		}
 		
-		System.out.println("The three numbers in descending order:-");
-		if((firstNumber>secondNumber) && (firstNumber>thirdNumber))
-		{
-			if(secondNumber>thirdNumber)
-				System.out.println(firstNumber+" "+secondNumber+" "+thirdNumber);
-			else
-				System.out.println(firstNumber+" "+thirdNumber+" "+secondNumber);
-		}
-		else if((secondNumber>firstNumber) && (secondNumber>thirdNumber))
-		{
-			System.out.println(secondNumber);
-			if(firstNumber>thirdNumber)
-				System.out.println(secondNumber+" "+firstNumber+" "+thirdNumber);
-			else
-				System.out.println(secondNumber+" "+thirdNumber+" "+firstNumber);
-		}
-		else
-		{
-			if(firstNumber>secondNumber)
-				System.out.println(thirdNumber+" "+firstNumber+" "+secondNumber);
-			else
-				System.out.println(thirdNumber+" "+secondNumber+" "+firstNumber);
-		}
+	
+		System.out.println("***Descending order of tnree number****");
+		System.out.println(firstNumber);
+		System.out.println(secondNumber);
+		System.out.println(thirdNumber);
+		System.out.println(fourthNumber);
+		System.out.println("***Ascending order of tnree number****");
+		temp=firstNumber;
+		firstNumber=fourthNumber;
+		fourthNumber=temp;
+		temp=secondNumber;
+		secondNumber=thirdNumber;
+		thirdNumber=temp;
+		System.out.println(firstNumber);
+		System.out.println(secondNumber);
+		System.out.println(thirdNumber);
+		System.out.println(fourthNumber);
 		
 	}
 
